@@ -176,8 +176,8 @@
 				half_height = _to.height / 2,
 				half_vw_width = $viewport.width() / 2,
 				half_vw_height = $viewport.height() / 2,
-				offset = $draggable.offset();
-				viewport_offset = $viewport.offset(),
+				offset = $draggable.offset(),
+				viewport_offset = $viewport.offset();
 				
 			var new_offset = { 
 				left: -x - (half_width - half_vw_width) + viewport_offset.left, 
